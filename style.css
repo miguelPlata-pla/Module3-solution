@@ -1,0 +1,50 @@
+
+
+
+body {
+  background-color: grey;
+}
+  
+
+.container-fluid {
+  
+  background-image: url("Dinner.png");
+  
+  padding: 10px;
+  border: 2px solid #333;
+}
+.tall-section {
+  
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  
+}
+
+/* Menú mobile */
+.navbar-nav {
+  background-color: skyblue;   
+}
+
+.navbar-nav > li > a {
+               
+  text-align: center;       
+  padding: 15px;            
+  border-bottom: 1px solid #444; 
+}
+
+.navbar-nav > li > a:hover {
+  background-color: skyblue;   
+  color: goldenrod;           
+}
+
+
+.navbar-toggle .icon-bar {
+  background-color: #333;   
+}
